@@ -1,0 +1,21 @@
+:root{
+    --cream: #ECDBAD;
+    --sage:#C15143;
+    --deepgreen:#4b402a;
+    --taupe:#4B402A;
+    --eggshell: #F1FACF;
+}
+html {
+  box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: var(--taupe);
+}
+

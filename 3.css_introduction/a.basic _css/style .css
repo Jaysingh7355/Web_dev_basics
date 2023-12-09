@@ -1,0 +1,22 @@
+*{
+    /*this is the universal selector whatever you write here is applied to everything */
+ margin: 0;
+}
+
+div{
+    background-color: red;
+}
+ 
+body{
+     background-color: #CEF09D;
+}
+
+
+.mid-text {
+    font-weight: bold;
+}
+
+#head-text {
+    text-decoration-line:underline ;
+    text-decoration-style:unset  ;
+}

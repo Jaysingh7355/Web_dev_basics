@@ -1,0 +1,24 @@
+html {
+    /* uneless changed  every element sizing is board box */
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    /* we allow the child to fillow the parent box sizing  */
+     box-sizing: inherit; /* https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+  } 
+#demo{
+    width: 200px;
+     border:  10px solid yellow;
+     padding: 10px;
+     margin-bottom: 10px;
+}
+#demo2{
+    width: 200px;
+     border:  10px solid yellow;
+     padding: 10px;
+     /* box-sizing: content-box; */
+}
+#demo3{
+    border: solid blue 15px;
+    width: 150px; 
+}

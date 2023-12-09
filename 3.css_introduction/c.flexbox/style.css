@@ -1,0 +1,38 @@
+html{
+   box-sizing: border-box; 
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+#parent {
+    /* flex contener */
+    border: solid red 10px;
+    display: flex;
+    height: 500px;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+     flex-flow: row  wrap ;
+     justify-content: start; /*TO arrange wlwmwnt on main axies  */
+     align-items: normal; /*to arrange element on the cross axis*/
+     align-content: start;/*to arrange element on the cross axis*/
+}
+
+#parent div {
+    /* flex item */
+    border: solid blue 2px;
+    padding: 20px;
+    background-color: #D6D58E;
+    min-width: 100px;
+    /* max-width: 200px; */
+    max-height: 100px;  
+    /* min-height: 100px;   */
+}
+
+#child1{
+    /* flex-basis:  50%; */
+    flex-grow: 2;
+}
+#child2{
+    flex-grow: 1;
+}
