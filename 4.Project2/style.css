@@ -19,3 +19,88 @@ body{
     background-color: var(--taupe);
 }
 
+.section-t {
+    background-color: turquoise;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+#intro {
+    padding-bottom: 5rem;
+}
+
+#intro p{
+    font-size: 1rem;
+    /*  color: var(--sage); */
+    line-height: 1.5    ;
+}
+
+.name span {
+    display: block;
+    font-size: 4rem;
+    color: var(--cream);
+}
+.profile{
+    padding-bottom: 1rem;
+}
+
+#ntro h2{
+    font-size: 4rem;
+    font-weight: normal;
+    /* padding-top: 2rem; */
+}
+
+
+#collage_s ul {
+    margin: 0;
+    padding: 0;
+}
+#collage_s li{
+    list-style-type: none;
+    padding: 1rem;
+}
+#collage_s a{
+    color: white;
+}
+#hire {
+    /* background-color: turquoise; */
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+#hire p:last-child {
+    margin-top: 3rem;
+}
+
+nav {
+    font-size: 80%;
+    padding: 1rem;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+nav li:first-child {
+    flex-grow: 1;
+font-size: 1.5rem ;
+}
+nav a:hover {
+    color: blueviolet;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    
+}
