@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+*,*::after,*::before {
+    box-sizing: inherit;
+}
+ .row {
+    display:flex;
+    justify-content: space-between;
+}
+.static{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50px;
+    align-items: center;
+}
+.moving {
+    width: 50px;
+    height: 50px;
+    /* background-color: red; */
+    border: 5px solid red;
+    /* border-top: none; */
+    /* border-radius: 25px; */
+    /* border-radius: 25px; */
+}
+.moving:hover {
+    transform:rotate(180deg);
+    /* background-color: red; */
+    /* margin-left: 2000px; */
+   /* transition-delay: 2s; start making the changes after 2s. 
+    transition-duration: 5s; thake time to move from one transition to another
+   transition-property: margin-left;
+   transition-property: background-color;
+   transition-property: all;
+   transition-timing-function: ease-out;
+   */
+   /* transition: all 5s 1s ease-out; */
+    transition: all 5s 1s ease-out;
+}
