@@ -1,0 +1,26 @@
+:root{
+  --blue-gray:#ecf0f1; 
+}
+
+
+#header {
+    background-color: var(--blue-gray);
+    padding: 1.25rem;
+}
+
+ #header .header-Wrapper .logo {
+    font-size: 1.5 rem; 
+    line-height: 1.5; 
+}  
+
+ #header .header-Wrapper .logo a { 
+    color: black;
+    letter-spacing: 5px;
+} 
+
+
+  #header .header-wrapper .user-actions {
+    font-size: 1rem;
+    line-height: 1.5;
+    gap: 1rem;
+  } 
